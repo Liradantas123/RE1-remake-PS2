@@ -14,28 +14,12 @@ Não tenho experiência em desenvolvimento de jogos,
 mas sou apaixonado por este projeto e estou disposto a contribuir,
 aprender e ajudar da maneira que puder.
 
-STEP-BY-STEP
+Step-by-Step Process
+1. Download the Files – Obtain all the necessary project files.
+2. Extract the Source Code – Extract and analyze the source code from the original files.
+3. Modify and Adapt for PS2 – Edit the source code and adapt it to run on the PlayStation 2 hardware.
 
-1. MAPPING AND RECONSTRUCTION
-├── Assets (Textures, Audio, Models, Videos) -> Convert to PS2-compatible formats
-└── Binary (.dol) -> Decompile via REA + Ghidra -> Readable C/C++ source code
-
-2. CODE ADAPTATION (Porting Layer)
-├── Game Logic (Physics, AI, Mechanics) --------> Keep intact in C/C++
-└── Hardware Layer (GX Graphics, Audio) ---------> Rewrite using PS2SDK (GS/SPU2)
-
-3. COMPILATION AND TESTING
-└── Final C/C++ Code ---> MIPS Compiler (GCC) ---> PS2 Executable (.ELF)
-
-Passo a Passo
-
-1. MAPEAMENTO E RECONSTRUÇÃO
-├── Assets (Texturas, Áudio, Modelos, VÍdeos) -> Converter para formatos do PS2
-└── Binário (.dol) -> Descompilar via REA + Ghidra -> Código-fonte C/C++ legível
-
-2. ADAPTAÇÃO DO CÓDIGO (Porting Layer)
-├── Lógica do Jogo (Física, IA, Regras) --------> Mantém intacta em C/C++
-└── Camada de Hardware (Gráficos GX, Áudio) -----> Reescreve usando PS2SDK (GS/SPU2)
-
-3. COMPILAÇÃO E TESTE
-└── Código Final C/C++ ---> Compilador MIPS (GCC) ---> Executivo PS2 (.ELF)
+Processo Passo a Passo
+1. Baixar os Arquivos – Obter todos os arquivos necessários do projeto.
+2. Extrair o Código-Fonte – Extrair e analisar o código-fonte dos arquivos originais.
+3. Modificar e Adaptar para PS2 – Editar o código-fonte e adaptá-lo para funcionar no hardware do PlayStation 2.
